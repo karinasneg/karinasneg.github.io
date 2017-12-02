@@ -79,7 +79,7 @@ function createMaterial( path ) {
 var bmap =  THREE.ImageUtils.loadTexture("https://karinasneg.github.io/pictures/seabed.png", {}, function(){});
 
 var planeGeometry = new THREE.PlaneGeometry(300, 300, 300, 300);
-var planeMaterial = new THREE.MeshPhongMaterial({  color: 0xA1C5EE, shading: THREE.FlatShading, transparent: true, map: bmap });
+var planeMaterial = new THREE.MeshPhongMaterial({  color: 0x3BBFFF, shading: THREE.FlatShading, transparent: true, map: bmap });
 var mesh = new THREE.Mesh(planeGeometry, planeMaterial);
 
 //geometry.applyMatrix(new THREE.Matrix4().makeRotationX(-Math.PI/2));
