@@ -56,7 +56,7 @@ function loadSkyBox() {
 			createMaterial( 'https://karinasneg.github.io/pictures/skyX55+x.png' ), // right
 			createMaterial( 'https://karinasneg.github.io/pictures/skyX55-x.png' ), // left
 			createMaterial( 'https://karinasneg.github.io/pictures/skyX55+y.png' ), // top
-			createMaterial( 'https://karinasneg.github.io/pictures/seabed_ny.png' ), // bottom
+			createMaterial( 'https://karinasneg.github.io/pictures/seabed.png' ), // bottom
 			createMaterial( 'https://karinasneg.github.io/pictures/skyX55+z.png' ), // back
 			createMaterial( 'https://karinasneg.github.io/pictures/skyX55-z.png' )  // front
 		];
