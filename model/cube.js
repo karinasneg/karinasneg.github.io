@@ -57,8 +57,8 @@ function loadSkyBox() {
 			createMaterial( 'https://karinasneg.github.io/pictures/Daylight_Box_Left.bmp' ), // left
 			createMaterial( 'https://karinasneg.github.io/pictures/Daylight_Box_Top.bmp' ), // top
 			createMaterial( 'https://karinasneg.github.io/pictures/seabed.png' ), // bottom
-			createMaterial( 'https://karinasneg.github.io/pictures/Daylight_Box_Back.bmp' ), // back
-			createMaterial( 'https://karinasneg.github.io/pictures/Daylight_Box_Front.bmp' )  // front
+			createMaterial( 'https://karinasneg.github.io/pictures/Daylight_Box_Front.bmp' ), // back
+			createMaterial( 'https://karinasneg.github.io/pictures/Daylight_Box_Back.bmp' )  // front
 		];
 		
 		// Create a large cube
