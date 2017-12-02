@@ -21,7 +21,7 @@ function init() {
 
     // Add a light
 	var light = new THREE.PointLight(0xffffff, 1);
-	light.position.set(150, 150, 300);
+	light.position.set(300, 300, 300);
     scene.add(light);
 	//scene.add(new THREE.PointLightHelper(light, 3));
     
