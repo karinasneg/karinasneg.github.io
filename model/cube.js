@@ -29,7 +29,7 @@ function init() {
 	loadSkyBox();
     
     // Create Sea
-    createSea();
+    //createSea();
 
 	// Create the WebGL Renderer
 	renderer = new THREE.WebGLRenderer( { antialias:true} );
