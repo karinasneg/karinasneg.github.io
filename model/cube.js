@@ -20,8 +20,8 @@ function init() {
     camera.position.set(-0, 10, 30);
 
     // Add a light
-	var light = new THREE.DirectionalLight(0xffffff, 1);
-	light.position.set(0, 20, 0);
+	var light = new THREE.PositionalLight(0xffffff, 1);
+	light.position.set(0, 300, 0);
     scene.add(light);
 	//scene.add(new THREE.PointLightHelper(light, 3));
     
