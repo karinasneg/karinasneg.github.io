@@ -76,7 +76,7 @@ function createMaterial( path ) {
 	return material; 
 }
 
-var bmap =  THREE.ImageUtils.loadTexture("https://alenale.github.io/pic/seabed.png", {}, function(){});
+var bmap =  THREE.ImageUtils.loadTexture("https://karinasneg.github.io/pictures/seabed.png", {}, function(){});
 
 var planeGeometry = new THREE.PlaneGeometry(300, 300, 300, 300);
 var planeMaterial = new THREE.MeshPhongMaterial({  color: 0x1A528F, shading: THREE.FlatShading, transparent: true, map: bmap });
